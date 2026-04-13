@@ -1,4 +1,10 @@
-# EmDash Starter Template (Cloudflare)
+# 北極の とある倉庫
+
+## 用途
+
+- まなさすの創作置場
+
+## emdash
 
 A general-purpose starting point for building sites with [EmDash](https://github.com/emdash-cms/emdash) on Cloudflare Workers. Includes posts, pages, categories, and tags with minimal styling -- designed as a base you can build on rather than a finished theme.
 
@@ -34,15 +40,14 @@ A general-purpose starting point for building sites with [EmDash](https://github
 ## Local Development
 
 ```bash
-pnpm install
-pnpm bootstrap
-pnpm dev
+npm i
+npm run dev
 ```
 
 ## Deploying
 
 ```bash
-pnpm deploy
+npm run deploy
 ```
 
 Or click the deploy button above to set up the project in your Cloudflare account.
@@ -52,3 +57,11 @@ Or click the deploy button above to set up the project in your Cloudflare accoun
 - [Node.js variant](../starter) -- same template using SQLite and local file storage
 - [All templates](../)
 - [EmDash documentation](https://github.com/emdash-cms/emdash/tree/main/docs)
+
+## memo
+
+- 記事反映
+
+```bash
+npx emdash seed seed/seed.json
+```
